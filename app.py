@@ -23,7 +23,7 @@ FEATURE_META = {
 
 @st.cache_resource(show_spinner="Memuat model prediksi...")
 def load_model():
-    return joblib.load("model.joblib"))
+    return joblib.load("model.joblib")
 
 
 bundle = load_model()
